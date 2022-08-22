@@ -1,0 +1,66 @@
+ /* Filter and button styles */
+
+ /* Filter style */
+
+ .filters {
+ 	background-color: white;
+ 	border: 1px solid #DDDDDD;
+ 	border-radius: 4px;
+ 	height: 70px;
+ 	width: 100%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ /* button style */
+
+ .filters button {
+ 	font-size: 18px;
+ 	background-color: #FF5A5F;
+ 	color: #FFFFFF;
+ 	height: 48px;
+ 	width: 20%;
+ 	border: none;
+ 	border-radius: 4px;
+ 	margin: auto;
+    margin-right: 30px;
+ }
+
+/* change opacity to 90% */
+ .filters button:hover {
+ 	/*background-color: rgba(225, 90, 95, 0.9);*/
+    opacity: 0.9;
+ }
+
+ /*location and amenitities style */
+ 
+ .filters .amenities {
+    height: 100%;
+    width: 25%;
+ }
+ 
+ .filters .locations {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+ }
+
+
+
+
+ /* h3 tag style */
+
+ .filters h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 25%;
+}
+
+ /* h4 tag style */
+
+ .filters h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+    margin-left: 25%;
+}
